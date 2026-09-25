@@ -1,0 +1,8 @@
+# Backend dependencies for Smart Library AI
+fastapi
+uvicorn[standard]
+gunicorn
+supabase
+python-dotenv
+groq
+requests
