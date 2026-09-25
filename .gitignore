@@ -1,0 +1,59 @@
+# Root-level env files
+.env
+**/.env
+**/.env.local
+**/.env.*.local
+!**/.env.example
+
+# Dependency folders
+node_modules/
+**/node_modules/
+
+# Build output
+/dist/
+**/dist/
+**/build/
+**/coverage/
+
+# Python virtual environments and generated cache
+**/.venv/
+**/venv/
+**/__pycache__/
+**/.pytest_cache/
+**/.mypy_cache/
+**/*.py[cod]
+**/*.pyo
+
+# Logs and local artifacts
+*.log
+**/*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Platform metadata
+.DS_Store
+Thumbs.db
+
+# Editor configs
+.vscode/
+.idea/
+*.code-workspace
+
+# Local generated files
+*.local
+backend/backend-install.log
+backend/install.log
+frontend/dist/
+frontend/node_modules/
+
+# Keep template env files tracked
+!backend/.env.example
+!frontend/.env.example
+!**/.env.example
